@@ -1,0 +1,31 @@
+import pandas as pd
+from pandas import DataFrame
+import matplotlib as plt
+
+df= pd.read_csv('D:\Birzet\microdataNovember.csv', encoding='ISO-8859-1')
+print(df)
+
+# print(df.isnull().sum())
+
+# print(df.shape)
+
+
+# print(df.dropna(how="any").shape)
+
+
+# print(df['region'].value_counts())
+
+# print(df.dtypes)
+
+# df['age']= pd.to_numeric(df['age'])
+
+# print(df.describe())
+
+# max_threesold = (df['age'].quantile(0.95))
+#min_threesold = (df['age'].quantile(0.05))
+# print(df[df['age']<min_threesold])
+# print(min_threesold)
+#new_df= df[(df['age']< max_threesold) & (df['age']>min_threesold)]
+# print(new_df)
+
+#print(new_df.isnull().sum())
